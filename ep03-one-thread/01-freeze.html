@@ -1,0 +1,12 @@
+<!-- Browser demo: click, then try to type or click for 3 seconds -->
+<script language="JavaScript">
+function freeze() {
+  var end = new Date().getTime() + 3000
+  while (new Date().getTime() < end) { }
+  alert("Done! Now the page can listen again.")
+}
+</script>
+<form>
+<input type="button" value="Freeze the page" onclick="freeze()">
+<input type="text" value="Try typing here...">
+</form>
