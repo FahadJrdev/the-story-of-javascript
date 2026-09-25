@@ -1,6 +1,6 @@
 # The Story of JavaScript
 
-Code for the YouTube series **The Story of JavaScript** by **Developer Fahad Jr**, which teaches the whole language by walking through its history in order.
+Code for the YouTube series **The Story of JavaScript**, created by **Fahad Bin Zahid** ([Developer Fahad Jr](https://github.com/FahadJrdev)), which teaches the whole language by walking through its history in order.
 
 We start in 1995 with why JavaScript was created, why it has a single thread and an event loop, and why it only ran in browsers. From there we follow every feature in the order it arrived (`var` → `let` → `const`, callbacks → Promises → `async/await`, and so on) up to the latest ECMAScript edition. Every episode covers what problem the feature solved and how we use it today.
 
@@ -24,6 +24,13 @@ We start in 1995 with why JavaScript was created, why it has a single thread and
 
 *More episodes are added as they're published. The full list is on the YouTube playlist.*
 
+## Created by
+
+**Fahad Bin Zahid** ([@FahadJrdev](https://github.com/FahadJrdev)), a full-stack developer (Laravel, React, React Native) who has spent six years building booking, marketplace and logistics systems. The videos are published on the YouTube channel **Developer Fahad Jr**.
+
+The history in this series comes from primary sources: the ECMA-262 specifications, the WHATWG HTML spec, TC39 proposals, and *JavaScript: The First 20 Years* (Wirfs-Brock & Eich, 2020).
+
 ## License
 
-MIT. Use the code however you like.
+- **Code examples** (`.js` / `.html` files): **MIT**. Use them however you like.
+- **Videos, scripts, narration, animations, thumbnails and the series name "The Story of JavaScript"**: © 2026 Fahad Bin Zahid, all rights reserved. Please don't re-upload or translate the videos without permission. Linking and sharing are welcome.
