@@ -21,6 +21,7 @@ We start in 1995 with why JavaScript was created, why it has a single thread and
 | Episode | Title | Code |
 |---|---|---|
 | 1 | Why JavaScript was created: the web in 1995 | [ep01-why-javascript](ep01-why-javascript/) |
+| 2 | Ten Days in May (how JavaScript was built, and its frozen mistakes) | [ep02-ten-days](ep02-ten-days/) |
 | 40 | From callbacks to async/await | [ep40-callbacks-to-async-await](ep40-callbacks-to-async-await/) |
 
 *More episodes are added as they're published. The full list is on the YouTube playlist.*

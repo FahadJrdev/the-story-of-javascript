@@ -1,0 +1,14 @@
+<!-- From Netscape's Navigator 2.0 JavaScript guide, 1996 -->
+<script language="JavaScript">
+function compute(form) {
+   if (confirm("Are you sure?"))
+      form.result.value = eval(form.expr.value)
+   else
+      alert("Please come back again.")
+}
+</script>
+<form>
+Enter an expression: <input type="text" name="expr" size=15>
+<input type="button" value="Calculate" onclick="compute(this.form)">
+Result: <input type="text" name="result" size=15>
+</form>
