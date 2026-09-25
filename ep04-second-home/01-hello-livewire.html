@@ -1,0 +1,14 @@
+<!-- Server-side JavaScript, Netscape LiveWire 1.0 (1996) -->
+<!-- From the LiveWire Developer's Guide "Hello World" sample -->
+<HTML>
+<HEAD> <TITLE> Hello World </TITLE> </HEAD>
+<H1> Hello World </H1>
+<P>Your IP address is <SERVER>write(request.ip)</SERVER>
+<SERVER>
+if (client.number == null)   // first visit
+    client.number = 0
+else
+    client.number = parseInt(client.number) + 1
+</SERVER>
+<P>You have been here <SERVER>write(client.number)</SERVER> times.
+</HTML>
