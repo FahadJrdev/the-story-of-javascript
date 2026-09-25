@@ -14,7 +14,7 @@ We start in 1995 with why JavaScript was created, why it has a single thread and
   ```
 - Browser-only examples (DOM, `alert`, events) are marked in their first line. Paste them into the browser console or open the `.html` file.
 - Some snippets are **fragments** shown on screen to explain an idea (e.g. `getUser(...)` in the callback-hell example). They aren't meant to run on their own.
-- Chapters set in the past use **the code of that era**, so `var` shows up in 1995 episodes. Each of those chapters also shows how we'd write the same code today.
+- Chapters set in the past use **the code of that era**, so `var` shows up in 1995 chapters. Each of those chapters also shows how we'd write the same code today.
 
 ## Episodes
 
