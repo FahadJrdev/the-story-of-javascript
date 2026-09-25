@@ -2,27 +2,27 @@
 
 Code for the YouTube series **The Story of JavaScript**, created by **Fahad Bin Zahid** ([Developer Fahad Jr](https://github.com/FahadJrdev)), which teaches the whole language by walking through its history in order.
 
-We start in 1995 with why JavaScript was created, why it has a single thread and an event loop, and why it only ran in browsers. From there we follow every feature in the order it arrived (`var` → `let` → `const`, callbacks → Promises → `async/await`, and so on) up to the latest ECMAScript edition. Every episode covers what problem the feature solved and how we use it today.
+We start in 1995 with why JavaScript was created, why it has a single thread and an event loop, and why it only ran in browsers. From there we follow every feature in the order it arrived (`var` → `let` → `const`, callbacks → Promises → `async/await`, and so on) up to the latest ECMAScript edition. Every chapter covers what problem the feature solved and how we use it today.
 
 ## How to use this repo
 
-- One folder per episode: `epNN-short-name/`.
+- One folder per chapter: `chNN-short-name/` (NN = chapter number).
 - Files are numbered in the order they appear in the video.
 - Unless a file says otherwise, the examples were run on **Node.js 24**. Run one with:
   ```
-  node ep40-callbacks-to-async-await/02-callback.js
+  node ch40-callbacks-to-async-await/02-callback.js
   ```
 - Browser-only examples (DOM, `alert`, events) are marked in their first line. Paste them into the browser console or open the `.html` file.
 - Some snippets are **fragments** shown on screen to explain an idea (e.g. `getUser(...)` in the callback-hell example). They aren't meant to run on their own.
-- Episodes set in the past use **the code of that era**, so `var` shows up in 1995 episodes. Each of those episodes also shows how we'd write the same code today.
+- Chapters set in the past use **the code of that era**, so `var` shows up in 1995 episodes. Each of those chapters also shows how we'd write the same code today.
 
 ## Episodes
 
-| # | Episode | Code |
+| Chapter | Title | Code |
 |---|---|---|
-| 40 | From callbacks to async/await | [ep40-callbacks-to-async-await](ep40-callbacks-to-async-await/) |
+| 40 | From callbacks to async/await | [ch40-callbacks-to-async-await](ch40-callbacks-to-async-await/) |
 
-*More episodes are added as they're published. The full list is on the YouTube playlist.*
+*More chapters are added as they're published. The full list is on the YouTube playlist.*
 
 ## Created by
 
