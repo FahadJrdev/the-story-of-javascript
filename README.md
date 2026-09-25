@@ -6,23 +6,23 @@ We start in 1995 with why JavaScript was created, why it has a single thread and
 
 ## How to use this repo
 
-- One folder per chapter: `chNN-short-name/` (NN = chapter number).
+- One folder per episode: `epNN-short-name/` (NN = episode number).
 - Files are numbered in the order they appear in the video.
 - Unless a file says otherwise, the examples were run on **Node.js 24**. Run one with:
   ```
-  node ch40-callbacks-to-async-await/02-callback.js
+  node ep40-callbacks-to-async-await/02-callback.js
   ```
 - Browser-only examples (DOM, `alert`, events) are marked in their first line. Paste them into the browser console or open the `.html` file.
 - Some snippets are **fragments** shown on screen to explain an idea (e.g. `getUser(...)` in the callback-hell example). They aren't meant to run on their own.
-- Chapters set in the past use **the code of that era**, so `var` shows up in 1995 chapters. Each of those chapters also shows how we'd write the same code today.
+- Episodes set in the past use **the code of that era**, so `var` shows up in 1995 episodes. Each of those episodes also shows how we'd write the same code today.
 
 ## Episodes
 
-| Chapter | Title | Code |
+| Episode | Title | Code |
 |---|---|---|
-| 40 | From callbacks to async/await | [ch40-callbacks-to-async-await](ch40-callbacks-to-async-await/) |
+| 40 | From callbacks to async/await | [ep40-callbacks-to-async-await](ep40-callbacks-to-async-await/) |
 
-*More chapters are added as they're published. The full list is on the YouTube playlist.*
+*More episodes are added as they're published. The full list is on the YouTube playlist.*
 
 ## Created by
 
