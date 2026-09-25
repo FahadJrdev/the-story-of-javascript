@@ -24,6 +24,7 @@ We start in 1995 with why JavaScript was created, why it has a single thread and
 | 2 | Ten Days in May (how JavaScript was built, and its frozen mistakes) | [ep02-ten-days](ep02-ten-days/) |
 | 3 | Why Only One Thread? (one chef, and the frozen page) | [ep03-one-thread](ep03-one-thread/) |
 | 4 | JavaScript's Secret Second Home (LiveWire: server-side JavaScript in 1996) | [ep04-second-home](ep04-second-home/) |
+| 5 | The Browser War and the Birth of ECMAScript (write it twice: Netscape vs IE, 1997) | [ep05-browser-war](ep05-browser-war/) |
 | 40 | From callbacks to async/await | [ep40-callbacks-to-async-await](ep40-callbacks-to-async-await/) |
 
 *More episodes are added as they're published. The full list is on the YouTube playlist.*
