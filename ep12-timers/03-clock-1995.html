@@ -1,0 +1,12 @@
+<!-- tab: clock.html — 1995 (browser-only; based on Netscape's Navigator 2.0 handbook clock, trimmed) -->
+<SCRIPT LANGUAGE="JavaScript">
+var timerID = null
+function showtime() {
+    var now = new Date()
+    document.clock.face.value = now.getHours() + ":" + now.getMinutes() + ":" + now.getSeconds()
+    timerID = setTimeout("showtime()", 1000)   // the note writes the next note
+}
+</SCRIPT>
+<BODY onLoad="showtime()">
+<FORM NAME="clock"><INPUT TYPE="text" NAME="face" SIZE=12></FORM>
+</BODY>

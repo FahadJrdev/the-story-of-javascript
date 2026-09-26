@@ -1,0 +1,7 @@
+// The forgiving double equals (1996)
+console.log("404" == 404)
+console.log("" == 0)
+console.log(1 == "1")
+console.log(1 == "1.0")
+console.log("1" == "1.0")
+console.log(null == undefined)

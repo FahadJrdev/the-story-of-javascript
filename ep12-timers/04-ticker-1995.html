@@ -1,0 +1,12 @@
+<!-- tab: ticker.html — 1995 (browser-only) -->
+<SCRIPT LANGUAGE="JavaScript">
+var msg = "Welcome to my home page!   "
+var pos = 0
+function scroll() {
+    window.status = msg.substring(pos, msg.length) + msg.substring(0, pos)
+    pos = pos + 1
+    if (pos > msg.length) pos = 0
+    setTimeout("scroll()", 150)
+}
+</SCRIPT>
+<BODY onLoad="scroll()">

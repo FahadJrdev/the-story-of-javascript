@@ -1,0 +1,12 @@
+<!-- tab: reminder.html — 1995 (browser-only; Netscape's own Navigator 2.0 handbook example, lightly trimmed) -->
+<SCRIPT LANGUAGE="JavaScript">
+function displayAlert() {
+   alert("5 seconds have elapsed since the button was clicked.")
+}
+</SCRIPT>
+<FORM>
+<INPUT TYPE="button" VALUE="5-second reminder"
+   onClick="timerID=setTimeout('displayAlert()',5000)">
+<INPUT TYPE="button" VALUE="Clear the 5-second reminder"
+   onClick="clearTimeout(timerID)">
+</FORM>

@@ -25,6 +25,15 @@ We start in 1995 with why JavaScript was created, why it has a single thread and
 | 3 | Why Only One Thread? (one chef, and the frozen page) | [ep03-one-thread](ep03-one-thread/) |
 | 4 | JavaScript's Secret Second Home (LiveWire: server-side JavaScript in 1996) | [ep04-second-home](ep04-second-home/) |
 | 5 | The Browser War and the Birth of ECMAScript (write it twice: Netscape vs IE, 1997) | [ep05-browser-war](ep05-browser-war/) |
+| 6 | Your First Script (script tags, alert, document.write, 1995) | [ep06-first-script](ep06-first-script/) |
+| 7 | var: Variables in 1995 (hoisting, function scope, accidental globals) | [ep07-var](ep07-var/) |
+| 8 | Values and Types: Why JavaScript Has Two "Nothings" | [ep08-two-nothings](ep08-two-nothings/) |
+| 9 | Type Coercion: why "5" + 1 is "51" but "5" - 1 is 4 | [ep09-coercion](ep09-coercion/) |
+| 10 | Decisions and Loops (borrowed from C) | [ep10-decisions-loops](ep10-decisions-loops/) |
+| 11 | Functions Are Values: Scheme's Hidden Gift | [ep11-functions-values](ep11-functions-values/) |
+| 12 | Timers: Doing Something "Later" | [ep12-timers](ep12-timers/) |
+| 13 | The Event Loop, From Zero | [ep13-event-loop](ep13-event-loop/) |
+| 14 | Why Pages Freeze (and how to stop it) | [ep14-page-freezes](ep14-page-freezes/) |
 | 40 | From callbacks to async/await | [ep40-callbacks-to-async-await](ep40-callbacks-to-async-await/) |
 
 *More episodes are added as they're published. The full list is on the YouTube playlist.*

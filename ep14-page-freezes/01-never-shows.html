@@ -1,0 +1,13 @@
+<!-- Browser-only demo: "Working..." never appears on screen -->
+<script language="JavaScript">
+function work() {
+  document.forms[0].status.value = "Working..."
+  var end = new Date().getTime() + 3000
+  while (new Date().getTime() < end) { }   // one giant pot
+  document.forms[0].status.value = "Done!"
+}
+</script>
+<form>
+<input type="button" value="Start" onclick="work()">
+<input type="text" name="status" value="Ready">
+</form>

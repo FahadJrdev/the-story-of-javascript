@@ -1,0 +1,6 @@
+// Triple equals: same type AND same value (JavaScript 1.3, 1998; ECMAScript 3, 1999)
+console.log("404" == 404)
+console.log("404" === 404)
+console.log(404 === 404)
+console.log("" === 0)
+console.log(null === undefined)

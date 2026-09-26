@@ -1,0 +1,19 @@
+<!-- Browser-only demo: the box counts up, because the page can redraw between chunks -->
+<script language="JavaScript">
+var done = 0
+function nextChunk() {
+  var end = new Date().getTime() + 30
+  while (new Date().getTime() < end) { }   // 30 ms of stirring
+  done = done + 10
+  document.forms[0].status.value = "Working... " + done + "%"
+  if (done < 100) {
+    setTimeout(nextChunk, 0)
+  } else {
+    document.forms[0].status.value = "Done!"
+  }
+}
+</script>
+<form>
+<input type="button" value="Start" onclick="nextChunk()">
+<input type="text" name="status" value="Ready">
+</form>

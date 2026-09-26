@@ -1,0 +1,14 @@
+<!-- Browser-only (Netscape Navigator 2.0, 1996). The browser turns the onClick text into a function. -->
+<SCRIPT LANGUAGE="JavaScript">
+function bakeCake(whenDone) {
+  alert("Mixing...")
+  alert("Baking...")
+  whenDone()
+}
+function ringBell() {
+  alert("Ding! The cake is ready")
+}
+</SCRIPT>
+<FORM>
+<INPUT TYPE="button" VALUE="Bake a cake" onClick="bakeCake(ringBell)">
+</FORM>
