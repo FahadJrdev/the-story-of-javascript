@@ -1,0 +1,14 @@
+<!-- 1995 way: an event handler written straight into the HTML attribute.
+     Netscape Navigator 2.0 (Sep 1995) introduced onclick, onmouseover, etc.
+     as HTML attributes. This is markup, not a Node script: nothing to run,
+     shown on screen exactly as a 1995 page author would have typed it. -->
+<a href="catalog.html" onclick="alert('Going to the catalog!')">
+  See our catalog
+</a>
+
+<!-- the SAME handler, written as a property instead of an attribute -->
+<script>
+  document.links[0].onclick = function () {
+    alert('Going to the catalog!');
+  };
+</script>

@@ -34,6 +34,15 @@ We start in 1995 with why JavaScript was created, why it has a single thread and
 | 12 | Timers: Doing Something "Later" | [ep12-timers](ep12-timers/) |
 | 13 | The Event Loop, From Zero | [ep13-event-loop](ep13-event-loop/) |
 | 14 | Why Pages Freeze (and how to stop it) | [ep14-page-freezes](ep14-page-freezes/) |
+| 15 | Scope and Closures: how a function remembers | [ep15-closures](ep15-closures/) |
+| 16 | Objects: bags of properties | [ep16-objects](ep16-objects/) |
+| 17 | Prototypes: every object has a secret parent | [ep17-prototypes](ep17-prototypes/) |
+| 18 | this: the most confusing word in JavaScript | [ep18-this](ep18-this/) |
+| 19 | Arrays and Strings, the old way | [ep19-arrays-strings](ep19-arrays-strings/) |
+| 20 | When things break: try, catch, throw | [ep20-errors](ep20-errors/) |
+| 21 | Regular Expressions: a gift from Perl | [ep21-regex](ep21-regex/) |
+| 22 | The DOM: how JavaScript sees a web page | [ep22-dom](ep22-dom/) |
+| 23 | Events: how a page listens | [ep23-events](ep23-events/) |
 | 40 | From callbacks to async/await | [ep40-callbacks-to-async-await](ep40-callbacks-to-async-await/) |
 
 *More episodes are added as they're published. The full list is on the YouTube playlist.*
